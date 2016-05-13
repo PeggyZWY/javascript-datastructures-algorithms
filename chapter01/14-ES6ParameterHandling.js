@@ -14,7 +14,7 @@ function sum2 (x, y, z) {
         z = 3;
     return x + y + z;
 };
-console.log(sum2(4,2)); //outpus 10
+console.log(sum2(4,2)); //outpus 9
 
 //******* EcmaScript 6: spread operator ('...')
 var params = [3, 4, 5];
@@ -30,7 +30,7 @@ function restParamaterFunction (x, y, ...a) {
 console.log(restParamaterFunction(1, 2, "hello", true, 7)); // outputs 9;
 
 //code above is the same as ES5:
-function restParamaterFunction (x, y) {
+function restParamaterFunction2 (x, y) {
     var a = Array.prototype.slice.call(arguments, 2);
     return (x + y) * a.length;
 };
