@@ -169,7 +169,7 @@ function DoublyLinkedList() {
         return length === 0;
     };
 
-    this. size = function() {
+    this.size = function() {
         return length;
     };
 
