@@ -16,7 +16,7 @@ function Dictionary(){
 
     this.has = function(key){
         return items.hasOwnProperty(key);
-        //return value in items;
+        //return key in items;
     };
 
     this.get = function(key) {
