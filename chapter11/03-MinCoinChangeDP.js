@@ -16,6 +16,7 @@ function MinCoinChange(coins){
             newAmount = amount - coin;
             if (newAmount >= 0){
                 newMin = me.makeChange(newAmount);
+                // newMin = this.makeChange(newAmount);
             }
             if (
                 newAmount >= 0 &&
