@@ -131,7 +131,7 @@ function Graph() {
             d = {},
             f = {},
             p = {};
-        time = 0;
+        time = 0; // 这个没必要要啊
 
         for (var i=0; i<vertices.length; i++){
             f[vertices[i]] = 0;
